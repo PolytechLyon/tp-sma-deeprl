@@ -12,7 +12,7 @@ import torch.optim as optim
 
 
 class DQLAgentTarget():
-     """Agent qui utilise l'algorithme de deep QLearning."""
+    """Agent qui utilise l'algorithme de deep QLearning."""
 
     def __init__(self, seed=0):
         """Constructeur.

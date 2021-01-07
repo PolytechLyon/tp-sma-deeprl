@@ -25,8 +25,9 @@ class ReplayBuffer:
         self.batch_size = batch_size
         self.seed = random.seed(seed)
         
-        #TODO
         self.experience = namedtuple("Experience", field_names=["done"])
+        #TODO
+
 
     
     def add(self, done):
@@ -38,8 +39,11 @@ class ReplayBuffer:
         """Recuperation d'un minibatch de données aléatoires dans le buffer."""
         experiences = random.sample(self.memory, k=self.batch_size) 
 
-        #TODO
         dones = torch.from_numpy(np.vstack([e.done for e in experiences if e is not None]).astype(np.uint8)).float()
+        states = torch.from_numpy(np.vstack([e.state for e in experiences if e is not None])).float()
+ 
+        #TODO
+
         
   
         return (dones)
