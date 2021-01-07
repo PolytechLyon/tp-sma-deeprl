@@ -10,7 +10,7 @@ Vous trouverez dans ce dépôt :
 1. Les 2 étudiants du binôme (nom1 et nom2) doivent avoir un compte github. Si ce n’est pas le cas, créer un compte sur [github](https://github.com).
 2. Un seul des 2 étudiants du binôme (nom1) clique sur le lien de l’assignment des TPs donné en cours.
 
-3. Avec ce lien, l’étudiant nom1 accepte l’invitation et **crée une team** nommée `nom1-nom2`. Le nom du dépôt sera alors : `nnPyTorch-nom1-nom2`. 
+3. Avec ce lien, l’étudiant nom1 accepte l’invitation et **crée une team** nommée `nom1-nom2`. Le nom du dépôt sera alors : `tp-sma-deeprl-nom1-nom2`. 
 4. Le second étudiant nom2 du binôme doit alors:
 * Le plus simple:  cliquer sur l’assignment. Il choisit alors de joindre la team existante : `nom1-nom2`.
 * Soit l’étudiant nom1 ajoute `nom2` à la team `nom1-nom2`. L'étudiant `nom2`  recoit alors une invitation. L’étudiant `nom2`  accepte l’invitation : dans github, l’étudiant `nom2`  voit la team, et peut modifier le dépôt. L’étudiant `nom2`  ne voit le dépôt que lorsqu’il a fait une modification.
@@ -53,7 +53,7 @@ conda activate nnPyTorch
 Vous pouvez maintenant lancer le notebook ([Jupyter notebook](https://jupyter.org)) du TP2 en lancant la commande suivante :
 
 ```
-cd tpsmadeeprl-nom1-nom2
+cd tp-sma-deeprl-nom1-nom2
 jupyter notebook
 ```
 et compléter le TP2  `TP2.ipynb`.
