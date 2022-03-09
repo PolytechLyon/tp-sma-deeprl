@@ -24,21 +24,17 @@ conda activate nnPyTorch
 ```
 2. Installer [gym](https://gym.openai.com)
 
+ -  __Windows __: 
+
 ```
-git clone https://github.com/openai/gym.git
-cd gym
-pip install -e .
+pip install gym[all] 
 ```
-3. Installer `box2d` nécessaire à l'environnement gym  `LunarLander`:
+Cela va générer des erreurs liées à MuJoCo mais les autres dépendances seront tout de même correctement installées.
 
  -  __Mac__  et __Linux __: 
-```
-pip install -e '.[box2d]' 
-```
 
- -  __Windows __: 
- ```
-conda install -c conda-forge swig
+```
+pip install gym
 pip install Box2D
 ```
 
