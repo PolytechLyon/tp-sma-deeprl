@@ -24,19 +24,24 @@ conda activate nnPyTorch
 ```
 2. Installer [gym](https://gym.openai.com)
 
- -  __Windows __: 
+ -  __Windows __ et __Mac__: 
 
-```
-pip install gym[all] 
+ ```
+pip install gym
+pip install pyglet
+ ```
+Note: faire `ènv.reset()` à chaque début/fin d'épisode.
+
 ```
 Cela va générer des erreurs liées à MuJoCo mais les autres dépendances seront tout de même correctement installées.
 
- -  __Mac__  et __Linux __: 
+ -  __Linux __: 
 
 ```
 pip install gym
 pip install Box2D
 ```
+
 
 ## 3. TP
 
